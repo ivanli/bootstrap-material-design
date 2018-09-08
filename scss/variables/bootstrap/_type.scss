@@ -5,10 +5,10 @@
 // https://www.google.com/design/spec/style/typography.html#typography-styles
 // http://www.getmdl.io/styles/index.html
 
-$font-family-sans-serif: 'Roboto', 'Helvetica', 'Arial', sans-serif !default;
-//$font-family-serif:          Georgia, "Times New Roman", Times, serif !default;
+//$font-family-sans-serif: 'Roboto', 'Helvetica', 'Arial', sans-serif !default;
+$font-family-serif: 'Lora', Georgia, "Times New Roman", Times, serif !default;
 //$font-family-monospace:      Menlo, Monaco, Consolas, "Courier New", monospace !default;
-//$font-family-base:           $font-family-sans-serif !default;
+$font-family-base:           $font-family-serif !default;
 
 // Pixel value used to responsively scale all typography. Applied to the `<html>` element.
 //$font-size-root:             16px !default;
@@ -37,10 +37,10 @@ $display4-size: 2.125rem !default; // md display-1 34px was 3.5rem
 //
 //$line-height-base:                1.5 !default;
 //
-//$headings-margin-bottom:     ($spacer / 2) !default;
-//$headings-font-family:       inherit !default;
-$headings-font-weight: 400 !default; // was 500
-//$headings-line-height:       1.1 !default;
+$headings-margin-bottom:       $spacer !default;
+$headings-font-family:         'Bree Serif', Georgia, "Times New Roman", Times, serif !default;
+$headings-font-weight:         700 !default; // was 500
+$headings-line-height:         1.2 !default;
 //$headings-color:             inherit !default;
 //
 //$lead-font-size:             1.25rem !default;
